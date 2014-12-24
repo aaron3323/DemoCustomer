@@ -30,4 +30,6 @@
 		<aop:advisor pointcut-ref="interceptorPointcut" advice-ref="closeConnectionMethodInterceptor"/>
 	</aop:config>
 
+	<bean class="com.demo.subsystem.common.ApplicationContextHolder" />
+
 </beans>
